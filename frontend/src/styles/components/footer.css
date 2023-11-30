@@ -1,0 +1,13 @@
+footer{
+    bottom: 40px;
+    left: 0;
+}
+
+footer nav {
+    align-items: center;
+    display: flex;
+}
+
+footer nav a img{
+    width: 2vw;
+}

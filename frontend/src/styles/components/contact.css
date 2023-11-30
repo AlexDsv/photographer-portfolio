@@ -1,0 +1,18 @@
+.contact{
+    height: 100vh;
+    width: 100vw;
+    color: white;
+    font-size: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../../assets/bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contact a{
+    z-index: 4;
+    position: relative;
+}
