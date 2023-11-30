@@ -23,7 +23,7 @@ const Home = () => {
   }, []);
 
   return (
-    <div className="home">
+    <div className="home" id="home">
       <Parallax bgImage={require("../assets/bg.jpg")} strength={500}>
         <div className="black-filter"></div>
         <div style={{ height: "100vh" }}>

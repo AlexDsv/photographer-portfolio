@@ -1,6 +1,16 @@
 footer{
-    bottom: 40px;
     left: 0;
+    bottom: 40px; 
+    align-items: flex-start;
+    background-color: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 8vw 0;
+    position: fixed;
+    width: 84%;
+    z-index: 3;
+    mix-blend-mode: difference;
+    animation: slideUp 1s ease-out;
 }
 
 footer nav {
@@ -8,6 +18,29 @@ footer nav {
     display: flex;
 }
 
-footer nav a img{
+footer nav a{
     width: 2vw;
+    height: 2vw;
+}
+
+footer nav a img{
+    width: 100%;
+}
+
+@keyframes slideDown {
+    0% {
+       
+        transform: translateY(-100%)
+    }
+    30%{
+         opacity: 0;
+    }
+
+    80% {
+        transform: translateY(0);
+    }
+    100% {
+        opacity: 1;
+        
+    }
 }

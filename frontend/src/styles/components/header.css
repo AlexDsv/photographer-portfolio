@@ -1,4 +1,4 @@
-header, footer{
+header{
     left: 0;
     top: 0; 
     align-items: flex-start;
@@ -18,7 +18,7 @@ header h2{
     font-weight: 400;
 }
 
-header a, footer a{
+header a{
     color: white!important;
     font-size: 16px;
     margin: 10px 0;
